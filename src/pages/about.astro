@@ -4,8 +4,8 @@ import Layout from '../layouts/BlogPost.astro';
 ---
 
 <Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
+	title="About the Astro starter"
+	description="What the Astro blog starter is, and who it's for."
 	pubDate={new Date('August 08 2021')}
 	heroImage={AboutHeroImage}
 >
@@ -18,6 +18,12 @@ import Layout from '../layouts/BlogPost.astro';
 		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
 		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 	</p>
+	<h2>What this site is</h2>
+	<p>An <strong>Astro</strong> starter for <a href="/rp-astro-blog/blog/">a blog</a>.</p>
+	<ul>
+		<li>Fast</li>
+		<li>Simple</li>
+	</ul>
 
 	<p>
 		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
@@ -60,4 +66,14 @@ import Layout from '../layouts/BlogPost.astro';
 		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
 		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
 	</p>
+	<h2>Questions about this blog</h2>
+	<h3>Who writes it?</h3>
+	<p>Lorem writes it, from &#123;real&#125; experience &amp; notes.</p>
+	<script type="application/ld+json" set:html={JSON.stringify({
+		"name": "About FAQ",
+		"@type": "FAQPage",
+		"@context": "https://schema.org",
+		"mainEntity": []
+	})} />
+	<p>Read <a href="/rp-astro-blog/blog/first-post/">the first post</a>.</p>
 </Layout>
