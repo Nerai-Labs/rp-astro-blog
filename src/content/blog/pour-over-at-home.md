@@ -24,7 +24,7 @@ Grind and bloom
 
 Grind medium-fine, about like table salt. Pour twice the coffee's weight in water and wait 30 seconds so the gas escapes.
 
-### Equipment
+### Grinder
 
 A burr grinder matters more than the cone. The [Baratza Encore](https://baratza.com/) is a common first one.
 
