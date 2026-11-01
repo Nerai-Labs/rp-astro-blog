@@ -5,7 +5,7 @@ pubDate: 'Oct 20 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
-Pour-over is the simplest way to taste what a roaster meant. This guide walks through the gear, the method and how to fix a cup that tastes off, in ten minutes a day.
+Pour-over is the simplest way to taste what a roaster meant. This guide walks through the gear, the method and how to fix a cup that tastes off.
 
 ## Why pour-over
 
